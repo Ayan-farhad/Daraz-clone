@@ -1,0 +1,138 @@
+/* Navigation Panel */
+
+.navbar{
+    background-color: #ff0000;
+}
+
+
+                         /* Login page ka title or div */      
+
+/* .h4{
+    margin: 0rem 0rem 0rem 17rem;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+/* .width {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f3eeee;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.margin{
+    margin: -140px 20px 30px 400px ;
+}
+
+.lBtn{
+    width: 80%;
+    height: 48px;
+    background-color: #f57224;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.rem{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+
+.fBtn{
+    width: 80%;
+    height: 48px;
+    background-color: #3B5998;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.gBtn{
+    width: 80%;
+    height: 48px;
+    background-color: #d34836;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.width {
+    max-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+                      /* Footer */
+                      
+footer p {
+    margin-bottom: 0px; 
+}
+footer h6 {
+     color: #ff0000;/* Change this to the desired color code */
+}                     
+
+                       /* Api Div */
+
+
+#btnCart{
+    background-color: #f57224;
+    color: white;
+    border: none;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.btnCheck{
+    background-color: #f57224;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+                    /* Checkout div */
+
+#btnDelete{
+    background-color: #f57224;
+    color: white;
+}                    
