@@ -1,9 +1,73 @@
 /* Navigation Panel */
 
 .navbar{
-    background-color: #ff0000;
+    background-color: #ff5500;
+    color: white;
+    height: 66px;
 }
 
+.navbar img ,input ,button,ul,svg{
+    margin-left: 50px;
+}
+
+.navbar input ,button{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+.inp input{
+    width: 648px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn1{
+    background-color: #ff5500;
+    color: white;
+    border: none;
+}
+.btn1 :hover{
+    color: rgba(128, 128, 128, 0.159);
+    cursor: pointer;
+}
+
+.nav-item a{
+    color: white;
+}
+
+                           /* First nav */
+
+.head{
+    background-color: #ff5500;
+    color: white;
+    height: 25px;
+}                           
+.none{
+    list-style: none;
+    display: flex;
+    font-size: 0.8rem;
+}
+.none li{
+    margin: 0px 22px 0px 0px;
+}
+
+                            /* Carousel */
+
+.carousel{
+    width: 95%;
+    margin-top: 10px;
+}
+
+#carouselExampleControlsNoTouching img {
+    border-radius: 20px;
+}
+
+.bi :hover{
+    cursor: pointer;
+    color: rgba(65, 65, 65, 0.285);
+}
 
                          /* Login page ka title or div */      
 
