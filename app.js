@@ -1,5 +1,5 @@
 // const arr = [];
-const sameDiv = document.querySelector('.sameDiv');
+const sameDiv = document.querySelector('.render');
 const checkOut = document.querySelector('.checkOut');
 
 axios.get('https://fakestoreapi.com/products')
@@ -8,7 +8,7 @@ axios.get('https://fakestoreapi.com/products')
     data = res.data;
     for (let i = 0; i < res.data.length; i++){
         sameDiv.innerHTML += `
-        <div class="card p-1 mb-3 shadow-lg" style="width: 16rem; height: 29rem">
+        <div class="card p-1 mb-3 shadow-lg" style="width: 16rem; height: 31rem">
             <img width ='' height ='200px' src= ${res.data[i].image} class="card-img-top" alt="Product image">
         <div class="card-body">
         <h5 class="card-title titleh5">Title: ${res.data[i].title}</h5>
@@ -51,6 +51,3 @@ checkOut.addEventListener('click' , ()=>{
     window.location = 'checkout.html';
     // localStorage.removeItem('items');
 })
-
-
-
