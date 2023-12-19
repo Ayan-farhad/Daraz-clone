@@ -172,7 +172,7 @@ footer p {
     margin-bottom: 0px; 
 }
 footer h6 {
-     color: #ff0000;/* Change this to the desired color code */
+     color: #ff0000;
 }                     
 
                        /* Api Div */
@@ -182,7 +182,7 @@ footer h6 {
     background-color: #f57224;
     color: white;
     border: none;
-    width: 130px;
+    width: 136px;
     margin-bottom: 5px;
 }
 
@@ -199,4 +199,8 @@ footer h6 {
 #btnDelete{
     background-color: #f57224;
     color: white;
-}                    
+}
+.btn3{
+    color:rgb(237, 17, 17);
+    width:px;
+}

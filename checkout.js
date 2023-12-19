@@ -16,7 +16,7 @@ function renderItems() {
             totalPrice += total;
 
             div.innerHTML += `
-            <div class="card p-1 mb-3 shadow-lg" style="width: 16rem; height: 29rem">
+            <div class="card p-1 mb-3 shadow-lg" style="width: 16rem; height: 32.9rem">
             <img width='' height='200px' src=${items[i].image} class="card-img-top" alt="Product image">
             <div class="card-body">
                 <h5 class="card-title titleh5">Title: ${items[i].title}</h5>
@@ -24,13 +24,11 @@ function renderItems() {
                 <h5 class="card-title">Price: ${items[i].price}</h5>
                 <p class="card-text">Quantity: ${quantity}</p>
                 <p class="card-text">Total: ${total}</p>
+                <a onclick="funcMinus(${i})" class="btn bg-danger" >-</a>
+                <a onclick="funcPlus(${i})" class="btn bg-primary">+</a>
                 <a onclick="delete2(${i})" class="btn btn-warning">Delete</a>
-                <a onclick="funcPlus(${i})" class="btn btn-primary">+</a>
-                <a onclick="funcMinus(${i})" class="btn btn-danger">-</a>
             </div>
-        </div>
-            
-            `;
+        </div>`;
         }
 
         totalDiv.textContent = `Total Price: Rs.${totalPrice}`;

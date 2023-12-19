@@ -15,7 +15,7 @@ axios.get('https://fakestoreapi.com/products')
         <p class="card-text">Category: ${res.data[i].category}</p>
         <h5 class="card-title">Price: Rs.${res.data[i].price}</h5>
         </div>
-        <a onclick="addToCart2(${i})" class="btn btn-primary" id='btnCart'>Add to Cart</a>
+        <a onclick="addToCart(${i})" class="btn btn-primary" id='btnCart'>Add to Cart</a>
         </div>
         `
     }
@@ -35,7 +35,7 @@ else {
 }
 let data;
 
-function addToCart2(index){
+function addToCart(index){
     console.log(data[index]);
     arr.push(data[index])
     console.log(arr);
