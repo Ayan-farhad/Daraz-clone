@@ -24,6 +24,7 @@ axios.get('https://fakestoreapi.com/products')
     console.log(err);
 })
 
+
 const dataa = JSON.parse (localStorage.getItem("items"))
 
 let arr ;
@@ -35,7 +36,7 @@ else {
 }
 let data;
 
-function addToCart(index){
+function addToCart (index){
     console.log(data[index]);
     arr.push(data[index])
     console.log(arr);
@@ -45,6 +46,8 @@ function addToCart(index){
         icon: "success"
       });
 }
+
+
 
 checkOut.addEventListener('click' , ()=>{
     localStorage.setItem('items' , JSON.stringify(arr));

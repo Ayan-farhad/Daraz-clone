@@ -38,11 +38,13 @@ function renderItems() {
     }
 }
 
+
 function funcPlus(index) {
     items[index].quantity = (items[index].quantity || 0) + 1;
     renderItems();
     updateLocalStorage();
 }
+
 
 function funcMinus(index) {
     if (items[index].quantity > 0) {
@@ -55,11 +57,13 @@ function funcMinus(index) {
     }
 }
 
+
 function delete2(index) {
     items.splice(index, 1);
     renderItems();
     updateLocalStorage();
 }
+
 
 function updateLocalStorage() {
     localStorage.setItem('items', JSON.stringify(items));
